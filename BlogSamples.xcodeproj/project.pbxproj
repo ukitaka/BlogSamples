@@ -15,6 +15,8 @@
 		FF2DF48C1B820D280099191A /* BlogSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2DF48B1B820D280099191A /* BlogSamplesTests.swift */; };
 		FF2DF4971B8212DD0099191A /* SampleCodeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2DF4961B8212DD0099191A /* SampleCodeDataSource.swift */; };
 		FF2DF4991B8214CF0099191A /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2DF4981B8214CF0099191A /* Sample.swift */; };
+		FF2DF49D1B821A410099191A /* CAReplicatorLayerSample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2DF49C1B821A410099191A /* CAReplicatorLayerSample.storyboard */; };
+		FF2DF49F1B821A730099191A /* CAReplicatorLayerSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2DF49E1B821A730099191A /* CAReplicatorLayerSampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		FF2DF48B1B820D280099191A /* BlogSamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogSamplesTests.swift; sourceTree = "<group>"; };
 		FF2DF4961B8212DD0099191A /* SampleCodeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCodeDataSource.swift; sourceTree = "<group>"; };
 		FF2DF4981B8214CF0099191A /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		FF2DF49C1B821A410099191A /* CAReplicatorLayerSample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CAReplicatorLayerSample.storyboard; sourceTree = "<group>"; };
+		FF2DF49E1B821A730099191A /* CAReplicatorLayerSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAReplicatorLayerSampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		FF2DF4721B820D280099191A /* BlogSamples */ = {
 			isa = PBXGroup;
 			children = (
+				FF2DF49B1B821A050099191A /* CAReplicatorLayer */,
 				FF2DF49A1B8214D80099191A /* Common */,
 				FF2DF4751B820D280099191A /* AppDelegate.swift */,
 				FF2DF4771B820D280099191A /* TableViewController.swift */,
@@ -124,6 +129,15 @@
 				FF2DF4961B8212DD0099191A /* SampleCodeDataSource.swift */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		FF2DF49B1B821A050099191A /* CAReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF2DF49C1B821A410099191A /* CAReplicatorLayerSample.storyboard */,
+				FF2DF49E1B821A730099191A /* CAReplicatorLayerSampleViewController.swift */,
+			);
+			path = CAReplicatorLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2DF47B1B820D280099191A /* Main.storyboard in Resources */,
+				FF2DF49D1B821A410099191A /* CAReplicatorLayerSample.storyboard in Resources */,
 				FF2DF4801B820D280099191A /* LaunchScreen.xib in Resources */,
 				FF2DF47D1B820D280099191A /* Images.xcassets in Resources */,
 			);
@@ -226,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2DF49F1B821A730099191A /* CAReplicatorLayerSampleViewController.swift in Sources */,
 				FF2DF4781B820D280099191A /* TableViewController.swift in Sources */,
 				FF2DF4991B8214CF0099191A /* Sample.swift in Sources */,
 				FF2DF4761B820D280099191A /* AppDelegate.swift in Sources */,

@@ -11,6 +11,7 @@ import UIKit
 class SampleCodeDataSource : NSObject {
     
     private let samples : [Sample] = [
+        Sample("CAReplicatorLayer Sample", "CAReplicatorLayerSample"),
     ]
     
     
